@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/6b04acfae5.js" crossorigin="anonymous"></script>
+    <title>Desafio 5 "To do List"</title>
+</head>
+<body>
+<!-- inicio de app  -->
+    <div class="app-toDoList">
+        <!-- titulo  -->
+        <h1>To do List</h1>
+        <h4>(Lista de pendientes)</h4>
+        <hr>
+        <!-- input  -->
+        <div class="containerInput">
+            <p>Igrese nueva tarea</p>
+            <input type="text" required placeholder="Ingresa tu tarea">
+            <button>Agregar</button>
+        </div>
+        <!-- Lista de tareas  -->
+        <div class="added-tasks">
+            <div class="completed-tasks">
+                <p id="total-tasks">Tareas <strong>0</strong></p>
+                <p id="comple-tasks">Total <strong>0</strong></p>
+            </div>
+        <!-- Nuevas tareas  -->
+            <div id="tasks-list">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><strong>ID</strong></th>
+                            <th><strong>Tarea</strong></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <!-- Render de nuevas tareas  -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+<!-- fin de app  -->
+<!-- scrypts  -->
+<script src="./assets/js/app.js"></script>
+</body>
+</html>
